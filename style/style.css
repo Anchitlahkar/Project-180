@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+title {
+  align-self: center;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1.25%;
+  color: yellow;
+  font-family: cursive;
+}
+
+.image-marker {
+  height: 55px;
+  width: 55px;
+}
+
+#map {
+  height: 75vh;
+  width: 100%;
+  margin-top: 2%;
+}
+
+#navigate-button {
+  border: none;
+  width: 50%;
+  padding: 1em;
+  background-color: green;
+  color: white;
+  border-radius: 1em;
+  font-family: cursive;
+  margin-top: 2.5%;
+}
