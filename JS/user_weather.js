@@ -26,7 +26,7 @@ async function getWeather() {
                     <a-entity gps-entity-place="latitude: ${coordinates.location_lat}; longitude: ${coordinates.location_lng}">
                         <a-entity>
                             <a-text height="50" value="Weather: ${weather} at ${name}"></a-text>
-                            <a-text height="45" value="Temperature: ${celsius}°C"></a-text>
+                            <a-text height="60" value="Temperature: ${celsius}°C"></a-text>
                             <a-text height="40" value="Temperature: ${celsius}°C"></a-text>
                         </a-entity>
                     </a-entity>
